@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  gap: 24px;
+
+  /* Preencimento da caixa nav */
+
+  border: 1px solid red;
+  padding: 12px;
+}
+
+header svg {
+  height: 24px;
+  margin-right: auto;
+}
+
+header ion-icon {
+  font-size: 24px;
+}
+
+nav {
+  padding: 12px;
+  display: flex;
+  gap: 8px;
+
+  flex-grow: 0; /* crescimento do flex */
+  flex-shrink: 0; /* diminuir o flex */
+}
+
+nav button {
+  border: 0;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 10px;
+}
+
+nav button:hover,
+.active {
+  background-color: black;
+  color: white;
+}
+
+/* Main onde coloco os videos */
+
+main {
+  padding: 0 12px;
+}
+
+img {
+  width: 40%;
+  aspect-ratio: 16/9;
+}
+
+.info-canal {
+  display: flex;
+
+  padding: 12px;
+
+  gap: 12px;
+  
+}
+
+.title-info-video {
+  display: grid;
+}
+
+.title-info-video h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.title-info-video p {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.image-do-canal {
+  width: 32px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
